@@ -6,4 +6,4 @@ app.get("/", (req, res) => {
   res.send("hello World");
 });
 
-export default app;
+app.listen(9001);
